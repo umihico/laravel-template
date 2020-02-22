@@ -4,3 +4,5 @@ stg:
 prod:
 	php artisan config:clear
 	sls deploy --force --stage prod
+update:
+	composer update --no-scripts
